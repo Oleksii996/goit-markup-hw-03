@@ -9,150 +9,176 @@ a {
 ul {
   list-style: none;
 }
-
+img {
+  display: block;
+}
 
 /* Header */
-  header {
-   background-color: #ffffff;
-   height: 72px;
-  }
-  .website-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-  }
-  .website-logo-studio {
-   color: #2e2f42;
-  }
-  .header-href {
-    color: #2e2f42;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-  }
-  .header-href:hover {
-    color: #404bbf;
-  }
-  .header-href:focus {
-   color: #404bbf;
-  }
-  .address-menu {
-    font-style: normal
-  }
-  .address-href {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-weight: 400;    
-  }
-  .address-href:hover {
-    color: #404bbf
-  }
-  .address-href:focus {
-   color: #404bbf
-  }
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+.header.container {
+  background-color: #ac7c7c;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.nav {
+  background-color: #524f4f;
+  display: flex;
+  width: 1158px;
+  align-items: center;
+}
+.website-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+.website-logo-studio {
+  color: #2e2f42;
+}
+.nav-menu {
+  background-color: #aeb63e;
+  display: flex;
+  gap: 40px;
+}
+.header-href {
+  color: #2e2f42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  padding: 24px 0;
+}
+.header-href:hover {
+  color: #404bbf;
+}
+.header-href:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+  background-color: rgb(175, 137, 66);
+}
+.adress-ul {
+  display: flex; 
+  gap: 40px;
+}
+.address-href {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-weight: 400;
+}
+.address-href:hover {
+  color: #404bbf;
+}
+.address-href:focus {
+  color: #404bbf;
+}
 /* Header */
 
 /* Section 1 - Effective Solutions */
-  .section_effective_solutions {
-    background-color: #2e2f42;
-    height: 600px;
-  }
-  .h-first-class {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffffff;
-  }
-  .button_order_service {
-    background-color: #4d5ae5;
-    font-family: "Roboto", sans-serif;
-    color: #ffffff;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
-    cursor: pointer;
-  }
-  .button_order_service:hover {
-    background-color: #404bbf;
-  }
-  .button_order_service:focus {
-    background-color: #404bbf;
-  }
+.section_effective_solutions {
+  background-color: #2e2f42;
+  height: 600px;
+}
+.h-first-class {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.button_order_service {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.button_order_service:hover {
+  background-color: #404bbf;
+}
+.button_order_service:focus {
+  background-color: #404bbf;
+}
 /* Section 1 - Effective Solutions */
 
 /* Section 2 - Benefits */
-  .section_benefits {
-    background-color: #ffffff;
-  }
-  .h-third-class {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-  }
-  .p-section-two-three {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-  }
+.section_benefits {
+  background-color: #ffffff;
+}
+.h-third-class {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.p-section-two-three {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 /* Section 2 - Benefits */
 
 /* Section 3 - Our Team */
-  .section_our_team {
-    background-color: #f4f4fd;
-    height: 732px;
-  }
-  .h-second-class {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-  }
-  .people_info {
-    background-color: #ffffff;
-  }
+.section_our_team {
+  background-color: #f4f4fd;
+  height: 732px;
+}
+.h-second-class {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.people_info {
+  background-color: #ffffff;
+}
 /* Section 3 - Our Team */
 
 /* Section 4 - Our Portfolio */
-  .section_our_portfolio {
-    background-color: #ffffff;
-  }
+.section_our_portfolio {
+  background-color: #ffffff;
+}
 /* Section 4 - Our Portfolio */
 
 /* Footer */
-  .footer {
-    background-color: #2e2f42;
-  }
-  .website-logo-footer {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-  }
-  .website-logo-footer-studio {
-    color: #f4f4fd;
-  }
-  .p-footer {
-    line-height: 1.5;
-    color: #f4f4fd;
-    letter-spacing: 0.02em
-  }
+.footer {
+  background-color: #2e2f42;
+}
+.website-logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.website-logo-footer-studio {
+  color: #f4f4fd;
+}
+.p-footer {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
 /* Footer */
