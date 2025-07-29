@@ -63,7 +63,7 @@ img {
   font-style: normal;
 }
 .adress-ul {
-  display: flex; 
+  display: flex;
   gap: 40px;
 }
 .address-href {
@@ -131,7 +131,7 @@ img {
 }
 
 .benefits-ul-li {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .h-third-class-section-benefits {
@@ -142,7 +142,6 @@ img {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-
 
 .h-third-class {
   font-weight: 500;
@@ -164,6 +163,7 @@ img {
 .section_our_team {
   background-color: #f4f4fd;
   height: 732px;
+  padding: 120px 0;
 }
 .h-second-class {
   font-size: 36px;
@@ -172,15 +172,41 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
+
 .people_info {
   background-color: #ffffff;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-ul {
+  display: flex;
+  gap: 24px;
 }
 /* Section 3 - Our Team */
 
 /* Section 4 - Our Portfolio */
 .section_our_portfolio {
   background-color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.our-portfolio-ul {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.our-portfolio-ul-li {
+  width: calc((100% - 48px) / 3);
+}
+
+.section_our_portfolio .container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 /* Section 4 - Our Portfolio */
 
