@@ -41,7 +41,6 @@ img {
   color: #2e2f42;
 }
 .nav-menu {
-  background-color: #aeb63e;
   display: flex;
   gap: 40px;
 }
@@ -62,7 +61,6 @@ img {
 }
 .address {
   font-style: normal;
-  background-color: rgb(175, 137, 66);
 }
 .adress-ul {
   display: flex; 
@@ -160,6 +158,7 @@ img {
 /* Footer */
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0 100px;
 }
 .website-logo-footer {
   font-family: "Raleway", sans-serif;
@@ -169,6 +168,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .website-logo-footer-studio {
   color: #f4f4fd;
@@ -177,5 +178,6 @@ img {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 /* Footer */
