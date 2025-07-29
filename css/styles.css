@@ -122,7 +122,28 @@ img {
 /* Section 2 - Benefits */
 .section_benefits {
   background-color: #ffffff;
+  padding: 120px 0 120px;
 }
+
+.benefits-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.benefits-ul-li {
+  width: calc((100% - 72px) / 4);
+}
+
+.h-third-class-section-benefits {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+
+
 .h-third-class {
   font-weight: 500;
   font-size: 20px;
@@ -130,6 +151,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .p-section-two-three {
   font-size: 16px;
   line-height: 1.5;
