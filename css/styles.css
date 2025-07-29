@@ -14,6 +14,7 @@ ul {
 /* Header */
   header {
    background-color: #ffffff;
+   height: 72px;
   }
   .website-logo {
     font-family: "Raleway", sans-serif;
@@ -62,6 +63,7 @@ ul {
 /* Section 1 - Effective Solutions */
   .section_effective_solutions {
     background-color: #2e2f42;
+    height: 600px;
   }
   .h-first-class {
     font-size: 56px;
@@ -111,6 +113,7 @@ ul {
 /* Section 3 - Our Team */
   .section_our_team {
     background-color: #f4f4fd;
+    height: 732px;
   }
   .h-second-class {
     font-size: 36px;
