@@ -14,71 +14,74 @@ img {
 }
 
 /* Header */
-.header {
-  border-bottom: 1px solid #e7e9fc;
-}
-.header .container {
-  display: flex;
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-.nav {
-  display: flex;
-  align-items: center;
-}
-.website-logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 76px;
-}
-.website-logo-studio {
-  color: #2e2f42;
-}
-.nav-menu {
-  display: flex;
-  gap: 40px;
-}
-.header-href {
-  color: #2e2f42;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  padding: 24px 0;
-}
-.header-href:hover {
-  color: #404bbf;
-}
-.header-href:focus {
-  color: #404bbf;
-}
-.address {
-  font-style: normal;
-}
-.adress-ul {
-  display: flex;
-  gap: 40px;
-}
-.address-href {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  font-weight: 400;
-}
-.address-href:hover {
-  color: #404bbf;
-}
-.address-href:focus {
-  color: #404bbf;
-}
+  .header {
+    border-bottom: 1px solid #e7e9fc;
+  }
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+  }
+  .nav-header {
+    display: flex;
+    align-items: center;
+  }
+  .website-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+  }
+  .website-logo-studio {
+    color: #2e2f42;
+  }
+  .nav-header-menu {
+    display: flex;
+    padding: 0;
+    gap: 40px;
+  }
+  .header-href {
+    color: #2e2f42;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    padding: 24px 0;
+  }
+  .header-href:hover {
+    color: #404bbf;
+  }
+  .header-href:focus {
+    color: #404bbf;
+  }
+  .nav-header-address {
+    font-style: normal;
+  }
+  .nav-header-address-ul {
+    display: flex;
+    padding: 0;
+    gap: 40px;
+  }
+  .address-href {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    font-weight: 400;
+  }
+  .address-href:hover {
+    color: #404bbf;
+  }
+  .address-href:focus {
+    color: #404bbf;
+  }
 /* Header */
 
 /* Section 1 - Effective Solutions */
@@ -131,7 +134,7 @@ img {
 }
 
 .benefits-ul-li {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .h-II-section-benefits {
