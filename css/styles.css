@@ -130,7 +130,8 @@ img {
 
 /* Section 2 - Benefits */
   .section_benefits {
-    padding: 120px 0 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .section_benefits .container{
     display: flex;
