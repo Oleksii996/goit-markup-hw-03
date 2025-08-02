@@ -246,51 +246,71 @@ img {
 /* Section 3 - Our Team */
 
 /* Section 4 - Our Portfolio */
-.section_our_portfolio {
-  background-color: #ffffff;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.our-portfolio-ul {
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
-}
-.our-portfolio-ul-li {
-  width: calc((100% - 48px) / 3);
-}
-
-.section_our_portfolio .container {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
+  .section_our_portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #b7e6bb;
+  }
+  .section_our_portfolio .container {
+    width: 1158px;
+    margin: 0 auto;
+    background-color: #a1a1aa;
+  }
+  .our-portfolio-ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    column-gap: 24px;
+    row-gap: 48px;
+    background-color: #504c72;
+  }
+  .our-portfolio-ul-li {
+    width: calc((100% - 48px) / 3);
+  }
+  .our-portfolio-ul-li-div {
+    padding: 32px 16px;
+    background-color: #589cad;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+  }
+  .section_our_portfolio .h-third {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+  }
 /* Section 4 - Our Portfolio */
 
 /* Footer */
-.footer {
-  background-color: #2e2f42;
-  padding: 100px 0 100px;
-}
-.website-logo-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  display: inline-block;
-  margin-bottom: 16px;
-}
-.website-logo-footer-studio {
-  color: #f4f4fd;
-}
-.p-footer {
-  line-height: 1.5;
-  color: #f4f4fd;
-  letter-spacing: 0.02em;
-  max-width: 264px;
-}
+  .footer {
+    background-color: #2e2f42;
+    padding: 100px 0 100px;
+  }
+  .footer .container {
+    width: 1158px;
+    margin: 0 auto;
+  }
+  .website-logo-footer {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  .website-logo-footer-studio {
+    color: #f4f4fd;
+  }
+  .p-footer {
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+  }
 /* Footer */
