@@ -183,7 +183,7 @@ img {
     color: #2e2f42;
     margin-bottom: 8px;
   }
-  .p-section-two-three {
+  .section_benefits .p-section-two-three {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -193,14 +193,30 @@ img {
 
 /* Section 3 - Our Team */
   .section_our_team {
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     background-color: #b67171;
   }
   .section_our_team .container {
     width: 1158px;
     margin: 0 auto;
     background-color: #404bbf;
+  }
+  .our-team-ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    gap: 24px;
+    background-color: #589cad;
+  }
+  .our-team-ul-li {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    background-color: #b82929;
+  }
+  .our-team-ul-li-div {
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
   .section_our_team .h-second {
     font-size: 36px;
@@ -211,14 +227,21 @@ img {
     color: #2e2f42;
     margin-bottom: 72px;
   }
-  .people_info {
-    background-color: #867979;
-    flex-basis: calc((100% - 3 * 24px) / 4);
-    border-radius: 0px 0px 4px 4px;
+  .section_our_team .h-third {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
   }
-  .our-team-ul {
-    display: flex;
-    gap: 24px;
+  .section_our_team .p-section-two-three {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
   }
 /* Section 3 - Our Team */
 
